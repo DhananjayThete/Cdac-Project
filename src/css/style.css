@@ -12,10 +12,7 @@
  
   
 }
-.height{
-  height: 690px;
-  
-}
+
 .home{
     
     text-align: center;
@@ -141,12 +138,7 @@
        
        
        
-         .head{
-           margin-top: 100px;
-           width: 100%;
-           border-radius: 0.4px;
-           text-shadow:green 2px 2px;
-         }
+        
 
          .btn{
           background-color:gold;
@@ -182,15 +174,26 @@
         }  
         .imgF{
           
-          background-image: url("../../src/images/Farmerimg.jpg");
+          /* background-image: url("../../src/images/Farmerimg.jpg"); */
       
-        
+        background-color: lightgoldenrodyellow;
           background-position: center;
            background-repeat: no-repeat;
            background-size: cover;
-           position: fixed;
+           /* position: fixed; */
            min-width: 100%;
            min-height: 100%;
+        }
+        .height{
+          height: 690px;
+          
+        }
+        .head{
+          /* margin-top: 100px; */
+          font-family:serif;
+          width: 100%;
+          border-radius: 0.4px;
+          text-shadow:orangered 2px 2px;
         }
       
         .imgV{
@@ -481,4 +484,9 @@
   background-color: gray !important;
   border-radius: 25px;
   margin-top: 80px;
+ }
+
+ .farmerimg{
+  margin-left: 50px;
+  margin-top: -20px;
  }

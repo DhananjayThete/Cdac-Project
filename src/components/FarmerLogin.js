@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 
-
+import loginimg from "../images/farmerlogin.png";
 
 export default function FarmerLogin() {
 
@@ -59,10 +59,12 @@ const[Email,setEmail]=useState("")
         return (
             <div className="imgF height">
                 <div className='container '>
-                    <h1 className="head">Farmer Login </h1>
-                    <div className="row">
+                    <br/> <br/>
+                <h1 className="head">Farmer Login </h1>
+                    <div className="row ">
+                    
                         <div className="column" >
-                            <form onSubmit={SigninUser} >
+                            <form onSubmit={SigninUser}  >
                                 
                                 <div className="mb-3">
                                     <label for="exampleInputEmail1" class="form-label"><h6>Email Id</h6></label>
@@ -89,7 +91,11 @@ const[Email,setEmail]=useState("")
                                 </Link>
                             </form>
                         </div>
+                        <div className="col xl-9  farmerimg">
+                        <img className="farmerimg img-fluid" style={{width:'400px'}} src={loginimg}></img>
+                        </div>
                     </div>
+                    
                 </div>
 
             </div>)
