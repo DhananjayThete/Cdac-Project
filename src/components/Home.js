@@ -32,8 +32,8 @@ export default function Home() {
         <div style={{height:'730px'}}>
 
             <div className='home' >
-                <h1 style={{ color: "green", fontFamily: "sans-serif" }}><b>Welcome To Digital Agriculture Procurement Market</b></h1>
-                <h2 style={{ color: "green" }}>We Are Happy To See You</h2>
+                <h1 style={{ color: "green", fontFamily: "sans-serif" }}><b>Welcome To Online Agriculture  Market</b></h1>
+                <h2 style={{ color: "green" }}>Build Farmer Build Nation</h2>
                 <div className='ThickerBox'>
 
                     <marquee><h1 className='marquee'>WE GUARANTEE FAIR PRICE FOR ALL PRODUCTS.!  </h1>
