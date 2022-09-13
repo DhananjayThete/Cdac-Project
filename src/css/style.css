@@ -32,6 +32,11 @@
     background-repeat: no-repeat;
  
 }
+.home2{  /* new added  */
+  background-color: aliceblue; 
+}
+
+
 .navbar{
   color: aliceblue !important;
 }
@@ -422,7 +427,7 @@
   text-align: center;
   /* background-image:url("../images/inner-banner.png") ; */
 
-  
+
 
   background-position: center;
   background-repeat: no-repeat;
@@ -448,4 +453,15 @@
 
   width: 1600px !important;
   margin: auto;
+}
+
+.logo1{                 /* new added  */
+ margin-left: 0px;
+ padding-left:0%;
+ height: 570px;
+ width: 370px;
+}
+
+.logoimg{
+  width: 350px;
 }
