@@ -36,7 +36,7 @@ export default function Home() {
                 <h2 style={{ color: "green" }}>We Are Happy To See You</h2>
                 <div className='ThickerBox'>
 
-                    <marquee><h1 className='marquee'>WE GUARANTEE FAIR PRICE FOR ALL..!  </h1>
+                    <marquee><h1 className='marquee'>WE GUARANTEE FAIR PRICE FOR ALL PRODUCTS.!  </h1>
                     </marquee><div className="home1"></div>
                 </div>
 
