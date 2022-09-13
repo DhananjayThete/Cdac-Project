@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
 
+import vloginimg from "../images/vendorimg.jpg";
 
 export default function VendorLogin() {
 
@@ -52,10 +53,11 @@ export default function VendorLogin() {
          }
         }
     return (
-    <div className="imgV">
+    <div className="imgV height">
   
   
   <div className='container'>
+  <br/> <br/>
                 <h1 className="head">Vendor Login</h1>
                 <div className="row">
                 <div className="column">
@@ -84,6 +86,9 @@ export default function VendorLogin() {
                   </Link>
                   </form>
                  </div>
+                 <div className="col xl-9  farmerimg">
+                        <img className="farmerimg img-fluid" style={{width:'400px'}} src={vloginimg}></img>
+                        </div>
              </div>
         </div>
     </div>) 

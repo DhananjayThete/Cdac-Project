@@ -198,13 +198,13 @@
       
         .imgV{
          
-          background-image: url("../../src/images/vendorl1.webp");
+          /* background-image: url("../../src/images/vendorl1.webp"); */
       
-           
+           background-color: white;
           background-position: center;
            background-repeat: no-repeat;
            background-size:cover;
-           position: fixed;
+           /* position: fixed; */
          min-width: 100%;
            min-height: 100%;
         }
@@ -223,7 +223,7 @@
         }
         .login{
           /* background-image: url("../../src/images/bgAbout12.jpg"); */
-          background-color:lightgreen;
+          background-color:lightblue;
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
