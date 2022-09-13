@@ -33,7 +33,7 @@
  
 }
 .home2{  /* new added  */
-  background-color: aliceblue; 
+  background-color: white; 
 }
 
 
@@ -219,14 +219,15 @@
            min-height: 100%;
         }
         .login{
-          background-image: url("../../src/images/bgAbout12.jpg");
+          /* background-image: url("../../src/images/bgAbout12.jpg"); */
+          background-color:lightgreen;
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
-          height: 500px;
+          /* height: 500px; */   /* not require new add */
           min-width: 100%;
          
-          
+         
         
         }
         .rform{
@@ -425,6 +426,7 @@
 .headerup
 {
   text-align: center;
+  background-color: #56910f;
   /* background-image:url("../images/inner-banner.png") ; */
 
 
@@ -454,8 +456,8 @@
   width: 1600px !important;
   margin: auto;
 }
-
-.logo1{                 /* new added  */
+/* --------------------------new added--------------------  */
+.logo1{                 
  margin-left: 0px;
  padding-left:0%;
  height: 570px;
@@ -465,3 +467,18 @@
 .logoimg{
   width: 350px;
 }
+.fbtn{
+  background-color: green !important;
+  border-radius: 25px;
+  margin-top: 80px;
+ }
+ .vbtn{
+  background-color: orange !important;
+  border-radius: 25px;
+  margin-top: 80px;
+ }
+ .tbtn{
+  background-color: gray !important;
+  border-radius: 25px;
+  margin-top: 80px;
+ }

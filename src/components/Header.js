@@ -13,8 +13,8 @@ export default function Header() {
         
         <div className='container-fuild menu-section nav-bg-th'>
              <div className="headerup">
-             <h1 style={{ color: "green", fontFamily: "sans-serif" }}><b>Welcome To Online Agriculture  Market</b></h1>
-                <h2 style={{ color: "green" }}>Build Farmer Build Nation</h2>
+             <h1 style={{ color: "white", fontFamily: "sans-serif" }}><b>Welcome To Online Agriculture  Market</b></h1>
+                <h2 style={{ color: "white" }}>Build Farmer Build Nation</h2>
              </div>
             <nav className="navbar navbar-expand-lg navbar-light bg-dark" >
                 <div className="container-fluid">
