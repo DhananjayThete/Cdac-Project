@@ -420,7 +420,10 @@
 .headerup
 {
   text-align: center;
-  background-image:url("../images/inner-banner.png") ;
+  /* background-image:url("../images/inner-banner.png") ; */
+
+  
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
