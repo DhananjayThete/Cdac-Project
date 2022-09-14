@@ -3,15 +3,15 @@
 import React from 'react';
 
 
-import a from '../images/1.jpg'
-import b from '../images/2.jpg'
+import a from '../images/g5.jpg'
+import b from '../images/g2.jpg'
 import c from '../images/9.jpeg'
-import d from '../images/4.jpeg'
+import d from '../images/g4.jpg'
 import e from '../images/5.jpg'
-import f from '../images/6.jpg'
-import g from '../images/7.jpg'
-import h from '../images/8.jpg'
-import i from '../images/11.jpg'
+import f from '../images/g6.jfif'
+import g from '../images/g7.jpg'
+import h from '../images/g8.jpg'
+import i from '../images/g9.jpg'
 import j from '../images/10.jpg'
 
 

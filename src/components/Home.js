@@ -6,8 +6,7 @@ import { useState } from "react";
 import logo1 from '../images/animated1.gif';
 import logo2 from '../images/paint1.png';
 import logo3 from '../images/animated2.gif';
-import logo4 from '../images/newheader.png';
-import logo5 from '../images/10.jpg';
+
 
 const data = [
     {

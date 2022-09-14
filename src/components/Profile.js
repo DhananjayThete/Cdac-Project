@@ -99,7 +99,7 @@ export default function Profile() {
         }
      }
     return (
-        <div className='container'>
+        <div className='container prof'>
             {/* <h1 className='display-1'>404 page not found</h1> */}
             <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
