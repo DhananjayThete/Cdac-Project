@@ -31,6 +31,7 @@
 }
 .home2{  /* new added  */
   background-color: white; 
+  background-image: url("../images/Farmer-Day.jpg.webp");
 }
 
 
@@ -105,6 +106,11 @@
         text-shadow: orangered 2px 2px;
         font-style: italic;
         
+    }
+    .marquee1{
+      color:whitesmoke;
+      text-shadow: orangered 2px 2px;
+      font-style: oblique;
     }
     .navbar1{
         color: blanchedalmond !important;

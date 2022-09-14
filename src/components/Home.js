@@ -6,6 +6,8 @@ import { useState } from "react";
 import logo1 from '../images/animated1.gif';
 import logo2 from '../images/paint1.png';
 import logo3 from '../images/animated2.gif';
+import logo4 from '../images/newheader.png';
+import logo5 from '../images/10.jpg';
 
 const data = [
     {
@@ -35,11 +37,15 @@ export default function Home() {
         <div className='home2' style={{height:'730px'}}>
 
             <div className='home' >
-                <h1 style={{ color: "green", fontFamily: "sans-serif" }}><b>Welcome To Online Agriculture  Market</b></h1>
-                <h2 style={{ color: "green" }}>Build Farmer Build Nation</h2>
+                {/* <h1 style={{ color: "green", fontFamily: "sans-serif" }}><b>Welcome To Online Agriculture  Market</b></h1>
+                <h2 style={{ color: "green" }}>Build Farmer Build Nation</h2> */}
                 <div className='ThickerBox'>
 
-                    <marquee><h1 className='marquee'>WE GUARANTEE FAIR PRICE FOR ALL PRODUCTS.!  </h1>
+                    <marquee><h1 className='marquee'>
+                    <img className="logoimg img-fluid" style={{height:'150px'}} src={logo1}></img>
+                    Know Your Farmer, Know Your Food.! 
+                      <img className="logoimg img-fluid" style={{height:'150px'}} src={logo1}></img>
+                       </h1>
                     </marquee><div className="home1"></div>
                 </div>
 
@@ -74,7 +80,16 @@ export default function Home() {
       <div className='row'>
     <div className='col-xl-4 logo1 '>
       <div>
-      <img className="logoimg img-fluid" style={{height:'275px'}} src={logo1}></img>
+      {/* <img className="logoimg img-fluid" style={{height:'275px'}} src={''}></img> */}
+        <marquee style={{height:'275px'}} scrollamount="2"  direction = "up"><h1 className='marquee1'  >
+      
+        farmer in one state can sell <br/>
+        his product anywhere in India<br/>
+         like wise a vendor can buy<br/>
+          any where in India
+                   
+                       </h1>
+                    </marquee><div className="home1"></div>
       </div>
 
       <div>
