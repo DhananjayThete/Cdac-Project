@@ -126,7 +126,7 @@ export default function Farmerdash() {
               <option value="5015">Apple</option>
               <option value="5017">Banana</option>
               <option value="5016">Grapes</option>
-
+              <option value="5018">Almond</option>
             </select>
           </div>
 
